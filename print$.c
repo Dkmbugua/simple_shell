@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+ * main: begin executing
+ * char : *theuserinput
+ * ssize_t = read_no_ofbytes
+ * use of while loop read_no_ofbytes
+*/ 
 int main(void)
 {
 char *theuserinput=NULL;
