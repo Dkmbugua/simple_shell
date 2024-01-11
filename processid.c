@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-*main - PID AND PPID
+*main - display process ID and parent process ID
 *
 *RETURN ;ALWAYS 0
 */

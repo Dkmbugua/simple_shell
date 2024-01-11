@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
-* tokeniz in : based on deimeter
-*initialize variable : char *start=str
-*use while loop to iterate the tokens
-*main function: define a string and deliiter
-return (0) from main function
+ * print_tokens- tokenize a string based on delimeter
+ * @str: the input string
+ * @delim: the delimeter used fpr tokemization
 */
 
 void print_tokens(char *str, char *delim)
@@ -25,7 +23,10 @@ if (*start != '\0')
 printf("%s\n", start);
 }
 }
-
+/**
+ *main - entry of a program
+ *return: always 0
+*/
 int main()
 {
 char string[] = "push till you do it";
