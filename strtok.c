@@ -8,8 +8,8 @@
 
 void print_tokens(char *str, char *delim)
 {
-char *token=strtok(str, delim);
-char *start=str;
+char *token = strtok(str, delim);
+char *start = str;
 
 while (token != NULL)
 {
@@ -27,7 +27,7 @@ printf("%s\n", start);
  *main - entry of a program
  *return: always 0
 */
-int main()
+int main(void)
 {
 char string[] = "push till you do it";
 char delimiter[] = " ";

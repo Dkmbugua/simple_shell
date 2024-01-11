@@ -6,12 +6,13 @@
 *RETURN ;ALWAYS 0
 */
 
-int main () {
+int main(void)
+{
 	pid_t process_id = getpid();
 	pid_t parent_pid = getppid();
-	
+
 	printf("process_id: %u\n", process_id);
 	printf("parent_pid: %u\n", parent_pid);
-	
-	return 0;
+
+	return (0);
 }
